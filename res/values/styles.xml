@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="Theme.SplashScreen" parent="android:Theme">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/Animations.SplashScreen</item>
+    </style>
+    
+    <style name="Theme.Main" parent="android:Theme">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <style name="Animations" parent="@android:Animation" />
+
+    <style name="Animations.SplashScreen">
+        <item name="android:windowEnterAnimation">@anim/appear</item>
+        <item name="android:windowExitAnimation">@anim/disappear</item>
+    </style>
+
+</resources>

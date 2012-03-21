@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Domotica con Arduino</string>
+    <string name="splash_description">Logo LUG Perugia</string>
+    <string name="site_link">http://www.perugiagnulug.org/</string>
+    <string name="request_ip">Inserisci l\'indirizzo IP di Arduino:</string>
+    <string name="cmdDiscovery">Connetti</string>
+    <string name="warningTitle">Attenzione!</string>
+    <string name="warningIPArduino">Il valore inserito non corrisponde ad un IP valido</string>
+    <string name="progressDiscoveryTitle">Ricerca</string>
+    <string name="progressDiscovery">In attesa per la ricerca di dispositivi Arduino</string>
+    <string name="discoveryFail">Nessun dispositivo Arduino identificato</string>
+    <string name="defaultArduinoIP"></string>
+
+</resources>
